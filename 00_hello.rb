@@ -14,7 +14,7 @@ def say_hello(first_name)
 
 end 
 
-say_hello(first_name)
+say_hello("Max")
 
 
 #exo 2.1.3
