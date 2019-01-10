@@ -1,45 +1,43 @@
 
 #exo 2.2.1 
 
-#def half_pyramid
+def half_pyramid
 
-#	puts "Hello. Combien d'étages veux-tu dans ta super pyramide ?"
-#	print "J'en veux "
-#	pyramide = gets.chomp.to_i
-#	puts "Voici ta pyramide"
-#	i = pyramide;
-#	while i != 0
- #	 1.upto(i).each{|i|puts ("* " * i).rjust(pyramide * 2)}
- #	 break i >1
-#	end
+	puts "Hello. Combien d'étages veux-tu dans ta super pyramide ?"
+	print "J'en veux "
+	pyramide = gets.chomp.to_i
+	puts "Voici ta pyramide"
+	i = pyramide;
+	while i != 0
+ 	 1.upto(i).each{|i|puts ("* " * i).rjust(pyramide * 2)}
+ 	 break i >1
+	end
 
-#end
+end
 
-#half_pyramid
+half_pyramid
 
 
 #exo 2.2.2
 
-#def full_pyramid
+def full_pyramid
 
-#	puts "Hello. Combien d'étages veux-tu dans ta super pyramide ?"
-#	print "J'en veux "
-#	pyramide = gets.chomp.to_i
-#	puts "Voici ta pyramide"
-#	i = pyramide;
-#	while i != 0
- #	 1.upto(i).each{|i|puts ("* " * i).center(pyramide * 2)}
- #	 break i >1
-#	end
+	puts "Hello. Combien d'étages veux-tu dans ta super pyramide ?"
+	print "J'en veux "
+	pyramide = gets.chomp.to_i
+	puts "Voici ta pyramide"
+	i = pyramide;
+	while i != 0
+ 	 1.upto(i).each{|i|puts ("* " * i).center(pyramide * 2)}
+ 	 break i >1
+	end
 
-#end
+end
 
-#full_pyramid
+full_pyramid
 
 
 #exo 2.2.3
-
-
 
 def wtf_pyramid_etage
 
@@ -74,9 +72,6 @@ def perform
 		wtf_pyramid_haut(nombre_etage)	
 	
 	end 
-
-	#wtf_pyramid_haut(nombre_etage)
-	
 
 end
 
